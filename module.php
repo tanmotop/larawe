@@ -6,7 +6,7 @@
  * Time: 5:06 PM
  */
 
-class Zyx_ucenterModule extends WeModule
+class {Module_name}Module extends WeModule
 {
     public function welcomeDisplay()
     {
