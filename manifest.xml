@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="https://github.com/tanmotop/larawe" versionCode="0.8,1.0">
+	<application setting="true">
+		<name><![CDATA[]]></name>
+		<identifie><![CDATA[]]></identifie>
+		<version><![CDATA[]]></version>
+		<type><![CDATA[]]></type>
+		<ability><![CDATA[]]></ability>
+		<description><![CDATA[]]></description>
+		<author><![CDATA[]]></author>
+		<url><![CDATA[]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="true" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<menu call="getMenus">
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
