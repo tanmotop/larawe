@@ -1,7 +1,7 @@
 {
     "name": "larawe/larawe",
     "type": "project",
-    "description": "The Laravel Style We-engine Module Framework.",
+    "description": "The Larawe Framework.",
     "keywords": [
         "framework",
         "laravel",
