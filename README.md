@@ -24,6 +24,16 @@ cd addons/my_module
 
 接下来就可以到微擎管理后台愉快的安装模块了
 
+从微擎进入的路由参数用在URL里增加参数 `r` 来表示，默认为空
+
+例：` http://yourhost/web/index.php?c=site&a=entry&m=module_name&do=index&r=index ` 将匹配到下面这条路由
+
+```php
+$router->get('/index', function () {
+    return view('welcome');
+});
+```
+
 等等，不是说有双入口吗？在哪里？
 
 别急，继续往下看
